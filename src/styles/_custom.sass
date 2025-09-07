@@ -62,9 +62,20 @@ figcaption
     background: linear-gradient(0deg,rgba(255, 255, 255, 1) 0%, rgba(255, 245, 204, 1) 35%, rgba(255, 245, 204, 1) 65%, rgba(255, 255, 255, 1) 100%)
   &-3
     background-color: #FFCC00
+  &-4
+    background-color: #D7E9FF
+  &-5
+    background-color: #D6EDBA
+  &-6
+    background-color: #E4D5BF
+  &-7
+    color: #4C6929 !important
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
+    &-1
+      background-color: #ffffffb3
+      border-radius: 20px
   &-secundario
     background-color: $color-secundario !important
   &-sintesis
@@ -95,10 +106,30 @@ figcaption
     background-position: bottom
     background-repeat: no-repeat
     background-size: cover
-  //&-slider
+  &-slider
     background-image: url("../assets/curso/bg-slider.png") !important
     background-position: bottom
 
 //////////COLOR_TEXTO_BOTON_REGRESAR///////////
 .barra-avance__boton--regresar span
   color: white !important
+
+/////////////ACORDION/////////////
+.acordion__accion__btn--a
+  background-color: #9028E2 !important
+  color: white
+.acordion__activo
+  background-color: #D6EDBA !important
+.acordion_titulo
+  color: #fff !important
+.acordion__titulo 
+  h3
+    color: $color-sistema-texto  !important
+.acordion__activo
+  .acordion__titulo 
+    h3
+      color: $color-sistema-texto !important
+
+.pst
+  li > i:first-of-type
+    top: 10px
