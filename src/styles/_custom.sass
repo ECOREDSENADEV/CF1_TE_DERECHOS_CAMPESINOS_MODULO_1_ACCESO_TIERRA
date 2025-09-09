@@ -70,6 +70,22 @@ figcaption
     background-color: #E4D5BF
   &-7
     color: #4C6929 !important
+  &-8
+    background: linear-gradient(180deg,rgba(124, 183, 52, 1) 0%, rgba(249, 203, 18, 1) 100%)
+  &-9
+    background-color: #9CC8FF
+  &-10
+    background: linear-gradient(180deg,rgba(255, 255, 255, 1) 0%, rgba(245, 251, 238, 1) 36%, rgba(252, 243, 206, 1) 65%, rgba(255, 255, 255, 1) 100%)
+  &-11
+    background-color: #BB965F
+  &-12
+    background-color: #F6F6F6
+  &-13
+    background-color: #4C6929
+    &:hover
+      background-color: #D7E9FF
+      h4, p
+        color: $color-sistema-texto !important
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -96,7 +112,7 @@ figcaption
 
 ///////////FondoImg//////////////////
 .bg-fondo
-  //&-1
+  &-1
     background-image: url("../assets/curso/bg1.svg") !important
     background-position: bottom
     background-repeat: no-repeat
@@ -130,6 +146,49 @@ figcaption
     h3
       color: $color-sistema-texto !important
 
+  ////////
 .pst
   li > i:first-of-type
     top: 10px
+  
+//CLASES TITULOS//
+.titulo-con-imagen
+  display: flex
+  align-items: center
+  position: relative
+.titulo-con-imagen__fondo
+  background-color: #BB965F
+  border-radius: 10px
+  padding: 10px 20px
+  display: inline-flex
+  align-items: center
+.titulo-con-imagen__imagen
+  position: absolute
+  left: -10px
+  width: 50px
+  top: -20px
+.titulo-con-imagen__texto
+  margin: 0
+  padding-left: 30px
+
+//////////////CUSTON SLYDER-A////////
+.slyder-a__bullets__item 
+  background-color: #BEA19B
+  border: #BEA19B
+.slyder-a__bullets__item--active
+  background-color: #9028E2
+.slyder-a__btn--atrs, .slyder-a__btn--sigt
+  background-color: #9028E2
+
+////////SOMBRA CAJON//////////
+.shadow-app
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  padding: 20px;
+  border-radius: 8px; /* Opcional, para bordes redondeados */
+
+/////////CUSTOM TABS-B///////////////
+.tabs-b__content-item, .tabs-b__tab.tabs-b__tab--active
+  background-color: #EBF6DD
+.tabs-b__tab
+  background-color: #D6EDBA
