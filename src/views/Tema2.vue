@@ -111,7 +111,7 @@
               .bg-color-white.p-4.h-100.shadow-app
                 img(src='@/assets/curso/tema2/15.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.text-center.mb-4 Conflictos por el uso del territorio
-                p.text-center Surgen tensiones y enfrentamientos entre comunidades campesinas y grandes propietarios..
+                p.text-center Surgen tensiones y enfrentamientos entre comunidades campesinas y grandes propietarios.
     
           .col-lg-4.order-1.mb-3.mb-lg-0
             figure
