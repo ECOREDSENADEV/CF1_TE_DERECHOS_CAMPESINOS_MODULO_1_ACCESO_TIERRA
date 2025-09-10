@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p A continuación, se presenta una síntesis de la temática estudiada en el componente formativo. 
     .row.justify-content-center
-      .col-lg-10.mb-5.bgs.p-4.brad
+      .col-lg-12.mb-5.bgs.p-4.brad
         figure
           img(src="@/assets/curso/sintesis.svg", alt="Síntesis sobre el derecho del campesinado al acceso a la tierra y uso de recursos naturales, con seis bloques temáticos: reforma agraria en Colombia, retos que enfrentan los campesinos, derechos del campesinado, leyes de acceso a la tierra, uso sostenible de recursos naturales y mecanismos de reconocimiento de derechos. ")
       .col-auto

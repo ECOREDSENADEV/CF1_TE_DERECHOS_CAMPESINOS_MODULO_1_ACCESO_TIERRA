@@ -11,7 +11,7 @@
       .px-4.px-md-5.pb-md-3
         .bg-color-14.mb-5(data-aos="fade-up")
           .row.justify-content-center.align-items-center
-            .col-lg-auto.mb-3.mb-lg-0
+            .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
               figure
                 img(src='@/assets/curso/tema4/1.png', alt='')
             .col-lg
@@ -46,7 +46,7 @@
                     p.mb-0 La orientación y asesoría a la ciudadanía en el ejercicio de sus derechos.
                   li.mb-2.d-flex
                     i.fas.fa-leaf.bg-color-7
-                    p.mb-0 El acceso a la justicia en los casos determinados por la ley..
+                    p.mb-0 El acceso a la justicia en los casos determinados por la ley.
         
             .titulo-con-imagen.mb-3(data-aos="fade-right")
               .titulo-con-imagen__fondo
@@ -145,7 +145,7 @@
           .col-lg-8.order-lg-1
             .bg-color-6.tarjeta.p-4.mb-3(data-aos="fade-left")
               .row.align-items-center
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema4/20.png", style="max-width: 190px").mx-auto
                 .col-lg
                   p.mb-0 La Personería es una entidad del Ministerio Público que actúa en el nivel local. Entre sus funciones más relevantes está la de ofrecer asesoría y orientación legal a la ciudadanía, con el fin de garantizar la protección de sus derechos fundamentales, así como velar por la correcta gestión administrativa en el ámbito municipal o distrital.

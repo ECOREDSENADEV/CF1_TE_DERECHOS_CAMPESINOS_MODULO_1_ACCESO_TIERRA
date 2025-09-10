@@ -7,14 +7,14 @@
         span 1
       h1 Reforma agraria en Colombia 
     
-    .row.mb-5
-      .col-lg-4.mb-3.mb-lg-0
+    .row.mb-5.justify-content-center
+      .col-lg-6.col-xl-4.mb-3.mb-xl-0
         .bg-color-4.tarjeta.p-4.h-100(data-aos="fade-left")
           p(data-aos="fade-left") La reforma agraria en Colombia ha sido uno de los procesos sociales y políticos más complejos de la historia del país. Desde la época colonial hasta la actualidad, la tierra ha estado en el centro de disputas, desigualdades y conflictos que han marcado profundamente la vida rural. La concentración en latifundios, la precariedad de los minifundios, el despojo violento y la falta de acceso de campesinos, indígenas y comunidades afrodescendientes han generado un escenario de exclusión que todavía se intenta superar.
-      .col-lg-4.mb-3.mb-lg-0
+      .col-lg-6.col-xl-4.mb-3.mb-xl-0
         figure
           img(src="@/assets/curso/tema1/1.png" data-aos="zoom-in")
-      .col-lg-4.mb-3.mb-lg-0
+      .col-lg-6.col-xl-4.mb-3.mb-xl-0
         .bg-color-5.tarjeta.p-4.h-100(data-aos="fade-left")
           p(data-aos="fade-left") A lo largo de los siglos XX y XXI, distintos gobiernos han planteado leyes, programas e instituciones para redistribuir, formalizar o restituir la tierra, con avances importantes pero también con retrocesos y limitaciones. La introducción de la función social de la propiedad, la creación del INCORA en los años sesenta, el freno que significó el Pacto de Chicoral en los setenta, la Constitución de 1991 con el reconocimiento del acceso progresivo a la tierra, la Ley de Víctimas y Restitución de Tierras de 2011 y, más recientemente, la Reforma Rural Integral del Acuerdo de Paz, son hitos que evidencian el carácter pendular de este proceso.
     
@@ -25,7 +25,7 @@
       .col-lg-8.order-lg-1
         .bg-color-6.tarjeta.p-4.mb-5(data-aos="fade-left")
           .row.align-items-start
-            .col-lg-auto
+            .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/tema1/3.svg", style="max-width: 190px").mx-auto
             .col-lg
               p.mb-0 Hoy, la reforma agraria se entiende no solo como la redistribución de predios, sino como una transformación integral que incluye acceso, formalización, justicia agraria, inversión en infraestructura, educación, salud, crédito y acompañamiento productivo. Este camino refleja la persistente búsqueda de saldar una deuda histórica con el campo colombiano y construir una base sólida para la paz y el desarrollo.
@@ -35,59 +35,59 @@
       .p-4.p-md-5
         PasosB.color-acento-contenido.bg-color-white-1.p-4
           .row(titulo="Antecedentes <br> (siglo XIX - 1930)").justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 Antecedentes (siglo XIX - 1930)
               p Se consolida la estructura bimodal de la tierra entre latifundio y minifundio. Persisten conflictos sociales y étnicos, mientras la economía cafetera impulsa nuevas colonizaciones. Las leyes de desamortización (1861) terminan concentrando tierras en terratenientes.
-            .col-md-4
+            .col-lg-4
               figure
                 img(src='@/assets/curso/tema1/4.svg', alt='Texto que describa la imagen')
           .row(titulo="1930 - 1946 <br> Primeros intentos").justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 1930 - 1946 Primeros intentos
               p Tras la crisis de 1929, López Pumarejo impulsa “La Revolución en Marcha”. Se establece la función social de la propiedad y se habilita la expropiación de tierras improductivas. Normas clave: Ley 200 de 1936 y Ley 100 de 1944.
-            .col-md-4
+            .col-lg-4
               figure
                 img(src='@/assets/curso/tema1/5.svg', alt='Texto que describa la imagen')
           .row(titulo="1958 - 1972 <br> Reforma agraria desarrollista ").justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 1958 - 1972 Reforma agraria desarrollista
               p Se crea el INCORA y se fomenta la colonización dirigida. La ANUC presiona por redistribución de tierras. El gobierno de Lleras Restrepo fortalece la reforma con infraestructura y crédito. Normativa: Ley 135 de 1961, Acto Legislativo de 1968 y Ley 1 de 1968.
-            .col-md-4
+            .col-lg-4
               figure
                 img(src='@/assets/curso/tema1/6.svg', alt='Texto que describa la imagen')
           .row(titulo="1972 - 1990 <br> Contrarreforma").justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 1972 - 1990 Contrarreforma
               p El Pacto de Chicoral frena la redistribución y prioriza colonización de baldíos. El Programa DRI ofrece asistencia técnica y crédito, sin cambios estructurales. El narcotráfico y paramilitarismo provocan despojo violento y concentración de tierras. Normativa: Leyes 4 y 5 de 1973, Ley 6 de 1975 y Ley 30 de 1988.
-            .col-md-4
+            .col-lg-4
               figure
                 img(src='@/assets/curso/tema1/7.svg', alt='Texto que describa la imagen')
           .row(titulo="1991 - 2002 <br> Nuevo marco constitucional").justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 1991 - 2002 Nuevo marco constitucional
               p La Constitución de 1991 reconoce la función social y ecológica de la propiedad y ordena acceso progresivo a la tierra. Se crean las Zonas de Reserva Campesina y se avanza en titulación colectiva para comunidades negras e indígenas. Normativa: Ley 70 de 1993, Ley 160 de 1994 y Decreto 1777 de 1996.
-            .col-md-4
+            .col-lg-4
               figure
                 img(src='@/assets/curso/tema1/8.svg', alt='Texto que describa la imagen')
           .row(titulo="2003 - 2010 <br> Reingeniería institucional").justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 2003 - 2010 Reingeniería institucional
               p Se liquida el INCORA y se crea el INCODER. Se expide el Estatuto de Desarrollo Rural (Ley 1152 de 2007), pero es declarado inexequible en 2009 por falta de consulta previa.
-            .col-md-4
+            .col-lg-4
               figure
                 img(src='@/assets/curso/tema1/9.svg', alt='Texto que describa la imagen')
           .row(titulo="2011 - 2015 <br> Restitución de tierras y víctimas").justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 2011 - 2015 Restitución de tierras y víctimas
               p Se prioriza la atención a víctimas del despojo. La Ley 1448 de 2011 establece jueces especializados y mecanismos de restitución administrativa o judicial. Decretos de 2011 complementan la reparación a comunidades étnicas.
-            .col-md-4
+            .col-lg-4
               figure
                 img(src='@/assets/curso/tema1/10.svg', alt='Texto que describa la imagen')
           .row(titulo="2016 - presente <br> Reforma rural integral ").justify-content-center.align-items-center
-            .col-md-6.mb-4.mb-md-0
+            .col-lg-6.mb-4.mb-md-0
               h4 2016 - presente Reforma rural integral 
               p Con el Acuerdo de Paz (2016) se define la RRI: Fondo de Tierras, formalización, Catastro Multipropósito y PDETs. Normativa: Ley 1776 de 2016, Decreto Ley 902 de 2017, Decretos 893 y 896 de 2017, Ley 1955 de 2019, Ley 2078 de 2021, Acuerdo Gobierno–FEDEGÁN 2022, Ley 2294 de 2023 y Acto Legislativo 03 de 2023. Avances recientes incluyen la Jurisdicción Agraria, recuperación de baldíos, titulación colectiva y fortalecimiento del Catastro Multipropósito.
-            .col-md-4
+            .col-lg-4
               figure
                 img(src='@/assets/curso/tema1/11.svg', alt='Texto que describa la imagen')
     

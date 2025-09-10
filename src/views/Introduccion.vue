@@ -19,17 +19,17 @@
 
             .bg-color-1.mb-5(data-aos="fade-up")
               .row.justify-content-center.align-items-center
-                .col-lg-auto.order-2
+                .col-xl-auto.order-2
                   figure
                     img(src='@/assets/curso/intro/2.png', alt='')
-                .col-lg.order-1.mb-3.mb-lg-0
+                .col-xl.order-1.mb-3.mb-lg-0
                   .px-4.py-3
                     p.mb-0(data-aos="fade-up") A lo largo de la historia, las comunidades rurales han enfrentado dificultades como la concentración y fragmentación de tierras, la urbanización descontrolada, los efectos del cambio climático y las desventajas en el acceso a los mercados. Estos problemas han debilitado sus ingresos, la cohesión social y la permanencia en los territorios, generando exclusión y precariedad en sus condiciones de vida. Sin embargo, en medio de estos desafíos también se han impulsado reformas legales, políticas públicas y movimientos sociales que buscan garantizar el acceso equitativo a la tierra, la sostenibilidad productiva y la dignidad de quienes habitan en el campo.
         
         .bg-color-3
           .px-4.px-md-5.py-4
             .row.align-items-center
-              .col-lg-auto
+              .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                 img(src="@/assets/curso/intro/3.svg", style="max-width: 90px").mx-auto
               .col-lg
                 p.mb-0 En este contexto, el módulo aborda la relación entre campesinado, tierra y territorio, examinando los derechos que los respaldan y las normativas nacionales e internacionales que los protegen. Asimismo, se profundiza en las instituciones, mecanismos de participación y estrategias que permiten gestionar dichos derechos ante el Estado, promoviendo la equidad territorial, la soberanía alimentaria y el fortalecimiento comunitario. El propósito es brindar herramientas de análisis y acción que contribuyan a transformar el campo colombiano en un espacio más justo, sostenible e inclusivo.

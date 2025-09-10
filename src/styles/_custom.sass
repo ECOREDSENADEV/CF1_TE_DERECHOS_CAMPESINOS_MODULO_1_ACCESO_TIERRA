@@ -41,7 +41,7 @@ figcaption
 
 .banner-principal__row .banner-principal__img
   width: 500px !important
-  @media screen and (max-width: $bp-max-lg)
+  @media screen and (max-width: $bp-max-xl)
     width: 400px !important
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
@@ -88,6 +88,14 @@ figcaption
         color: $color-sistema-texto !important
   &-14
     background-color: #4D637E
+  &-15
+    background-color: #E2DACC
+  &-16
+    background-color: #FFEB99
+  &-17
+    background-color: #F3F0EA
+  &-18
+    background-color: #F1EADF
   &-white
     background-color: white !important
     border: 1px solid $lightest-gray
@@ -152,6 +160,15 @@ figcaption
 .pst
   li > i:first-of-type
     top: 10px
+  &-1
+    ///////////////TABLAS/////////////////// 
+    table td
+      text-align: start !important
+    th, td, table thead th, .tabla-a th 
+      border: 2px solid #B5B5B5
+    table
+      table-layout: auto
+
   
 //CLASES TITULOS//
 .titulo-con-imagen
@@ -194,3 +211,28 @@ figcaption
   background-color: #EBF6DD
 .tabs-b__tab
   background-color: #D6EDBA
+
+//////////CUSTOM BOTONES SLYDER-F/////////
+.slyder-f__btn
+  height: 35px
+  width: 35px
+  max-width: 35px
+  background-color: $color-acento-botones
+  border-radius: 50%
+  padding: 0 !important
+  margin: 0 auto
+  .fa-chevron-left
+    font-size: 20px
+    color: white
+  .fa-chevron-right
+    font-size: 20px
+    color: white
+  
+.slyder-f
+    align-items: center
+
+    .slyder-f__main
+      width: 70%
+
+      @media (min-width: 769px)
+        width: 80%

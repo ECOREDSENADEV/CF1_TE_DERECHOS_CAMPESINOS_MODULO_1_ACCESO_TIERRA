@@ -9,7 +9,7 @@
     
     .bg-color-4.mb-5(data-aos="fade-up")
       .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
+        .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
           figure
             img(src='@/assets/curso/tema2/1.png', alt='')
         .col-lg
@@ -124,7 +124,7 @@
           .col-lg-8.order-lg-1
             .bg-color-8.tarjeta.p-4(data-aos="fade-left")
               .row.align-items-start
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/17.svg", style="max-width: 270px").mx-auto
                 .col-lg
                   div.bg-white.tarjeta.p-4
@@ -176,9 +176,9 @@
             p La fragmentación de la tierra rural es un problema porque reduce la capacidad de producción, dificulta el uso de tecnologías, agota más rápido los recursos naturales y profundiza la pobreza y la inseguridad alimentaria en el campo
             .bg-color-9.tarjeta.p-4.mb-3(data-aos="fade-left")
               .row.align-items-start
-                .col-lg-auto
+                .col-xl-auto.mb-3.mb-xl-0
                   img(src="@/assets/curso/tema2/21.svg", style="max-width: 270px").mx-auto
-                .col-lg
+                .col-xl
                   div.bg-white.tarjeta.p-4
                     ul.lista-ul--color
                       li.mb-0.d-flex
@@ -202,7 +202,7 @@
               img(src="@/assets/curso/tema2/22.png", data-aos="zoom-in")
           .col-lg-7.order-lg-1
             .titulo-sexto.color-acento-contenido
-              h5 Tabla 1
+              h5 Tabla 1.
               span Clasificación de predios rurales según su tamaño
             .tabla-a.color-acento-contenido
               table
@@ -234,7 +234,7 @@
           .col-lg-8
             .bg-color-8.tarjeta.p-4(data-aos="fade-left")
               .row.align-items-start
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/24.png", style="max-width: 270px").mx-auto
                 .col-lg
                   div.bg-white.tarjeta.p-4
@@ -356,11 +356,11 @@
             figure
               img(src="@/assets/curso/tema2/35.png", data-aos="zoom-in")
           .col-lg-8.order-lg-1
-            h5 El clima se define como el conjunto de condiciones atmosféricas como la temperatura, la humedad, el viento, la presión atmosférica y la precipitación, que caracterizan una región durante largos períodos de tiempo, generalmente de 30 años o más. Estas condiciones definen los ecosistemas y determinan las actividades humanas que pueden desarrollarse en cada territorio.
+            p El clima se define como el conjunto de condiciones atmosféricas como la temperatura, la humedad, el viento, la presión atmosférica y la precipitación, que caracterizan una región durante largos períodos de tiempo, generalmente de 30 años o más. Estas condiciones definen los ecosistemas y determinan las actividades humanas que pueden desarrollarse en cada territorio.
             p.mb-5 En las últimas décadas, sin embargo, se ha evidenciado una alteración significativa y duradera de estos patrones climáticos, tanto a nivel global como regional. A este fenómeno se le conoce como cambio climático, y su principal causa es la actividad humana, en particular la emisión de gases de efecto invernadero como el dióxido de carbono (CO₂), el metano y los óxidos de nitrógeno. Estos gases intensifican el calentamiento global, lo cual desencadena una serie de efectos adversos en el ambiente.
             .bg-color-1.tarjeta.p-4.mb-3(data-aos="fade-left")
               .row.align-items-start
-                .col-lg-auto
+                .col-lg-auto.mb-3.mb-lg-0
                   img(src="@/assets/curso/tema2/36.png", style="max-width: 270px").mx-auto
                 .col-lg
                   div.bg-white.tarjeta.p-4
@@ -392,7 +392,7 @@
     TabsB.color-acento-contenido.mb-5
       .py-4.py-md-5(titulo="Económica" :icono="require('@/assets/componentes/2.svg')")
         .row.align-items-center.p-4
-          .col-md-7.mb-4.mb-md-0.order-2
+          .col-lg-7.mb-4.mb-md-0.order-2
             h4 Económica
             ul.lista-ul--color
               li.mb-0.d-flex
@@ -407,12 +407,12 @@
               li.mb-0.d-flex
                 i.fas.fa-leaf.bg-color-7
                 p.mb-0 Pérdida de ganado por calor extremo, escasez de agua e inundaciones
-          .col-md-5.mb-4.mb-md-0.order-1
+          .col-lg-5.mb-4.mb-md-0.order-1
             figure
               img(src='@/assets/curso/tema2/37.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Social" :icono="require('@/assets/componentes/3.svg')")
         .row.align-items-center.p-4
-          .col-md-7.mb-4.mb-md-0.order-2
+          .col-lg-7.mb-4.mb-md-0.order-2
             h4 Social
             ul.lista-ul--color
               li.mb-0.d-flex
@@ -424,12 +424,12 @@
               li.mb-0.d-flex
                 i.fas.fa-leaf.bg-color-7
                 p.mb-0 Conflictos por recursos escasos como el agua y las tierras fértiles o no inundables
-          .col-md-5.mb-4.mb-md-0.order-1
+          .col-lg-5.mb-4.mb-md-0.order-1
             figure
               img(src='@/assets/curso/tema2/38.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Cultural" :icono="require('@/assets/componentes/4.svg')")
         .row.align-items-center.p-4
-          .col-md-7.mb-4.mb-md-0.order-2
+          .col-lg-7.mb-4.mb-md-0.order-2
             h4 Cultural
             ul.lista-ul--color
               li.mb-0.d-flex
@@ -438,12 +438,12 @@
               li.mb-0.d-flex
                 i.fas.fa-leaf.bg-color-7
                 p.mb-0 Desvalorización del campesinado, al verse afectada su productividad y su rol dentro de la sociedad
-          .col-md-5.mb-4.mb-md-0.order-1
+          .col-lg-5.mb-4.mb-md-0.order-1
             figure
               img(src='@/assets/curso/tema2/39.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Ambiental" :icono="require('@/assets/componentes/5.svg')")
         .row.align-items-center.p-4
-          .col-md-7.mb-4.mb-md-0.order-2
+          .col-lg-7.mb-4.mb-md-0.order-2
             h4 Ambiental
             ul.lista-ul--color
               li.mb-0.d-flex
@@ -455,12 +455,12 @@
               li.mb-0.d-flex
                 i.fas.fa-leaf.bg-color-7
                 p.mb-0 Mayor uso de agroquímicos para enfrentar nuevas plagas, lo que contamina suelos y fuentes hídricas
-          .col-md-5.mb-4.mb-md-0.order-1
+          .col-lg-5.mb-4.mb-md-0.order-1
             figure
               img(src='@/assets/curso/tema2/40.png', alt='Texto que describa la imagen')
       .py-4.py-md-5(titulo="Salud" :icono="require('@/assets/componentes/6.svg')")
         .row.align-items-center.p-4
-          .col-md-7.mb-4.mb-md-0.order-2
+          .col-lg-7.mb-4.mb-md-0.order-2
             h4 Salud
             ul.lista-ul--color
               li.mb-0.d-flex
@@ -472,7 +472,7 @@
               li.mb-0.d-flex
                 i.fas.fa-leaf.bg-color-7
                 p.mb-0 Estrés y afectaciones en la salud mental por pérdidas económicas y la incertidumbre
-          .col-md-5.mb-4.mb-md-0.order-1
+          .col-lg-5.mb-4.mb-md-0.order-1
             figure
               img(src='@/assets/curso/tema2/41.png', alt='Texto que describa la imagen')  
     
